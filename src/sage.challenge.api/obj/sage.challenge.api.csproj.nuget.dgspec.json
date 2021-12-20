@@ -1,17 +1,129 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.api\\sage.challenge.api.csproj": {}
+    "D:\\Last Version Correct\\src\\sage.challenge.api\\sage.challenge.api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.api\\sage.challenge.api.csproj": {
+    "D:\\Last Version Correct\\sage.challenge.data.framework\\sage.challenge.framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.api\\sage.challenge.api.csproj",
-        "projectName": "sage.challenge.api",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.api\\sage.challenge.api.csproj",
+        "projectUniqueName": "D:\\Last Version Correct\\sage.challenge.data.framework\\sage.challenge.framework.csproj",
+        "projectName": "sage.challenge.framework",
+        "projectPath": "D:\\Last Version Correct\\sage.challenge.data.framework\\sage.challenge.framework.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.api\\obj\\",
+        "outputPath": "D:\\Last Version Correct\\sage.challenge.data.framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Last Version Correct\\sage.challenge.repository\\sage.challenge.repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Last Version Correct\\sage.challenge.repository\\sage.challenge.repository.csproj",
+        "projectName": "sage.challenge.repository",
+        "projectPath": "D:\\Last Version Correct\\sage.challenge.repository\\sage.challenge.repository.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "D:\\Last Version Correct\\sage.challenge.repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Last Version Correct\\src\\sage.challenge.data\\sage.challenge.data.csproj": {
+                "projectPath": "D:\\Last Version Correct\\src\\sage.challenge.data\\sage.challenge.data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Last Version Correct\\src\\sage.challenge.api\\sage.challenge.api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Last Version Correct\\src\\sage.challenge.api\\sage.challenge.api.csproj",
+        "projectName": "sage.challenge.api",
+        "projectPath": "D:\\Last Version Correct\\src\\sage.challenge.api\\sage.challenge.api.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "D:\\Last Version Correct\\src\\sage.challenge.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +140,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.data\\sage.challenge.data.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.data\\sage.challenge.data.csproj"
+              "D:\\Last Version Correct\\sage.challenge.data.framework\\sage.challenge.framework.csproj": {
+                "projectPath": "D:\\Last Version Correct\\sage.challenge.data.framework\\sage.challenge.framework.csproj"
+              },
+              "D:\\Last Version Correct\\sage.challenge.repository\\sage.challenge.repository.csproj": {
+                "projectPath": "D:\\Last Version Correct\\sage.challenge.repository\\sage.challenge.repository.csproj"
+              },
+              "D:\\Last Version Correct\\src\\sage.challenge.data\\sage.challenge.data.csproj": {
+                "projectPath": "D:\\Last Version Correct\\src\\sage.challenge.data\\sage.challenge.data.csproj"
               }
             }
           }
@@ -117,14 +235,14 @@
         }
       }
     },
-    "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.data\\sage.challenge.data.csproj": {
+    "D:\\Last Version Correct\\src\\sage.challenge.data\\sage.challenge.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.data\\sage.challenge.data.csproj",
+        "projectUniqueName": "D:\\Last Version Correct\\src\\sage.challenge.data\\sage.challenge.data.csproj",
         "projectName": "sage.challenge.data",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.data\\sage.challenge.data.csproj",
+        "projectPath": "D:\\Last Version Correct\\src\\sage.challenge.data\\sage.challenge.data.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.data\\obj\\",
+        "outputPath": "D:\\Last Version Correct\\src\\sage.challenge.data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -140,7 +258,11 @@
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Last Version Correct\\sage.challenge.data.framework\\sage.challenge.framework.csproj": {
+                "projectPath": "D:\\Last Version Correct\\sage.challenge.data.framework\\sage.challenge.framework.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

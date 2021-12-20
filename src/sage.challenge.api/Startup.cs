@@ -4,10 +4,11 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Microsoft.EntityFrameworkCore;
 using sage.challenge.data.Cache;
 using sage.challenge.data.Entities;
+using sage.challenge.repository;
 
 namespace sage.challenge.api
 {
@@ -33,7 +34,10 @@ namespace sage.challenge.api
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
             });
 
-            services.AddSingleton<ISimpleObjectCache<Guid, User>, SimpleObjectCache<Guid, User>>();        
+            services.AddSingleton<ISimpleObjectCache<Guid, User>, SimpleObjectCache<Guid, User>>();
+
+            //Dependency injection
+            services.AddScoped<IUserRepository,UserRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

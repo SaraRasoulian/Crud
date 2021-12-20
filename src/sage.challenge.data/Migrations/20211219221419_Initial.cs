@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace sage.challenge.data.Migrations
 {
-    public partial class Initil : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -13,14 +13,9 @@ namespace sage.challenge.data.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    CreateDate = table.Column<DateTime>(nullable: true),
-                    CreateBy = table.Column<int>(nullable: true),
-                    EditDate = table.Column<DateTime>(nullable: true),
-                    EditBy = table.Column<int>(nullable: true),
-                    IsDelete = table.Column<bool>(nullable: false),
-                    FirstName = table.Column<string>(maxLength: 128, nullable: true),
-                    LastName = table.Column<string>(maxLength: 128, nullable: true),
-                    Email = table.Column<string>(nullable: true),
+                    FirstName = table.Column<string>(maxLength: 128, nullable: false),
+                    LastName = table.Column<string>(maxLength: 128, nullable: false),
+                    Email = table.Column<string>(nullable: false),
                     DateOfBirth = table.Column<DateTime>(nullable: false)
                 },
                 constraints: table =>

@@ -2591,13 +2591,37 @@
           "Microsoft.EntityFrameworkCore": "3.1.0",
           "Microsoft.EntityFrameworkCore.Abstractions": "3.1.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.0.0"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.0.0",
+          "sage.challenge.framework": "1.0.0"
         },
         "compile": {
           "bin/placeholder/sage.challenge.data.dll": {}
         },
         "runtime": {
           "bin/placeholder/sage.challenge.data.dll": {}
+        }
+      },
+      "sage.challenge.framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/sage.challenge.framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/sage.challenge.framework.dll": {}
+        }
+      },
+      "sage.challenge.repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "sage.challenge.data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/sage.challenge.repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/sage.challenge.repository.dll": {}
         }
       }
     }
@@ -8385,6 +8409,16 @@
       "type": "project",
       "path": "../sage.challenge.data/sage.challenge.data.csproj",
       "msbuildProject": "../sage.challenge.data/sage.challenge.data.csproj"
+    },
+    "sage.challenge.framework/1.0.0": {
+      "type": "project",
+      "path": "../../sage.challenge.data.framework/sage.challenge.framework.csproj",
+      "msbuildProject": "../../sage.challenge.data.framework/sage.challenge.framework.csproj"
+    },
+    "sage.challenge.repository/1.0.0": {
+      "type": "project",
+      "path": "../../sage.challenge.repository/sage.challenge.repository.csproj",
+      "msbuildProject": "../../sage.challenge.repository/sage.challenge.repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8396,7 +8430,9 @@
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3",
-      "sage.challenge.data >= 1.0.0"
+      "sage.challenge.data >= 1.0.0",
+      "sage.challenge.framework >= 1.0.0",
+      "sage.challenge.repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8405,11 +8441,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.api\\sage.challenge.api.csproj",
+      "projectUniqueName": "D:\\Last Version Correct\\src\\sage.challenge.api\\sage.challenge.api.csproj",
       "projectName": "sage.challenge.api",
-      "projectPath": "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.api\\sage.challenge.api.csproj",
+      "projectPath": "D:\\Last Version Correct\\src\\sage.challenge.api\\sage.challenge.api.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.api\\obj\\",
+      "outputPath": "D:\\Last Version Correct\\src\\sage.challenge.api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8426,8 +8462,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.data\\sage.challenge.data.csproj": {
-              "projectPath": "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.data\\sage.challenge.data.csproj"
+            "D:\\Last Version Correct\\sage.challenge.data.framework\\sage.challenge.framework.csproj": {
+              "projectPath": "D:\\Last Version Correct\\sage.challenge.data.framework\\sage.challenge.framework.csproj"
+            },
+            "D:\\Last Version Correct\\sage.challenge.repository\\sage.challenge.repository.csproj": {
+              "projectPath": "D:\\Last Version Correct\\sage.challenge.repository\\sage.challenge.repository.csproj"
+            },
+            "D:\\Last Version Correct\\src\\sage.challenge.data\\sage.challenge.data.csproj": {
+              "projectPath": "D:\\Last Version Correct\\src\\sage.challenge.data\\sage.challenge.data.csproj"
             }
           }
         }

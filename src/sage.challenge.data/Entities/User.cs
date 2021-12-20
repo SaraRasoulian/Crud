@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace sage.challenge.data.Entities
 {
     [Table("User")]
-    public class User: ObjectModel
+    public class User //: ObjectModel
     {
         /// <summary>
         /// ID of the User.
@@ -17,21 +17,27 @@ namespace sage.challenge.data.Entities
         /// <summary>
         /// First name of the User.
         /// </summary>
-        [MaxLength(128)]
+        [Required(ErrorMessage = "First name is required")]
+        [StringLength(128, ErrorMessage = "First name can't be longer than 128 characters")]
         public string FirstName { get; set; }
 
         /// <summary>
         /// Last name of the User.
         /// </summary>
-        [MaxLength(128)]
+        [Required(ErrorMessage = "Last name is required")]
+        [StringLength(128, ErrorMessage = "Last name can't be longer than 128 characters")]
         public string LastName { get; set; }
+
         /// <summary>
         /// Email of the user
         /// </summary>
+        [Required(ErrorMessage = "Email is required")]
         public string Email { get; set; }
+
         /// <summary>
         /// User's D.O.B.
         /// </summary>
+        [Required(ErrorMessage = "Date of birth is required")]
         public DateTime DateOfBirth { get; set; }
     }
 }

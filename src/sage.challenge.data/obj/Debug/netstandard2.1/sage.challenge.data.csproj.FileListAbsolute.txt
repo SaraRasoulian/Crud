@@ -1,20 +1,23 @@
 C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master\src\sage.challenge.data\bin\Debug\netstandard2.1\sage.challenge.data.deps.json
 C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master\src\sage.challenge.data\bin\Debug\netstandard2.1\sage.challenge.data.dll
 C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master\src\sage.challenge.data\bin\Debug\netstandard2.1\sage.challenge.data.pdb
-C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.csproj.AssemblyReference.cache
 C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.AssemblyInfoInputs.cache
 C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.AssemblyInfo.cs
 C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.csproj.CoreCompileInputs.cache
 C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.dll
 C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.pdb
-C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master _just database- push this first\src\sage.challenge.data\bin\Debug\netstandard2.1\sage.challenge.data.deps.json
-C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master _just database- push this first\src\sage.challenge.data\bin\Debug\netstandard2.1\sage.challenge.data.dll
-C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master _just database- push this first\src\sage.challenge.data\bin\Debug\netstandard2.1\sage.challenge.data.pdb
-C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master _just database- push this first\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.csproj.AssemblyReference.cache
-C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master _just database- push this first\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master _just database- push this first\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.AssemblyInfoInputs.cache
-C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master _just database- push this first\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.AssemblyInfo.cs
-C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master _just database- push this first\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.csproj.CoreCompileInputs.cache
-C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master _just database- push this first\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.dll
-C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master _just database- push this first\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.pdb
+C:\Users\Asus\Desktop\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.csproj.AssemblyReference.cache
+D:\dotnet-coding-challenge-3-master\src\sage.challenge.data\bin\Debug\netstandard2.1\sage.challenge.data.deps.json
+D:\dotnet-coding-challenge-3-master\src\sage.challenge.data\bin\Debug\netstandard2.1\sage.challenge.data.dll
+D:\dotnet-coding-challenge-3-master\src\sage.challenge.data\bin\Debug\netstandard2.1\sage.challenge.data.pdb
+D:\dotnet-coding-challenge-3-master\src\sage.challenge.data\bin\Debug\netstandard2.1\sage.challenge.framework.dll
+D:\dotnet-coding-challenge-3-master\src\sage.challenge.data\bin\Debug\netstandard2.1\sage.challenge.framework.pdb
+D:\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.csproj.AssemblyReference.cache
+D:\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.AssemblyInfoInputs.cache
+D:\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.AssemblyInfo.cs
+D:\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.csproj.CoreCompileInputs.cache
+D:\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.csproj.CopyComplete
+D:\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.dll
+D:\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.pdb

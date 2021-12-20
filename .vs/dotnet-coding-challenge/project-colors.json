@@ -15,7 +15,27 @@
       "ProjectGuid": "1d5867f4-8788-4468-817e-6847393f420b",
       "DisplayName": "sage.challenge.domain",
       "ColorIndex": 2
+    },
+    "0f79d237-2281-49f4-95fb-e9040f8d9cf0": {
+      "ProjectGuid": "0f79d237-2281-49f4-95fb-e9040f8d9cf0",
+      "DisplayName": "sage.challenge.repositorywww",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "a78ce694-46a9-4aad-9a4d-68adcc310c65": {
+      "ProjectGuid": "a78ce694-46a9-4aad-9a4d-68adcc310c65",
+      "DisplayName": "sage.challenge.repository",
+      "ColorIndex": 4
+    },
+    "8a93e15b-bf19-4407-a108-992325cb505e": {
+      "ProjectGuid": "8a93e15b-bf19-4407-a108-992325cb505e",
+      "DisplayName": "sage.challenge.framework",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 6
 }

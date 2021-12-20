@@ -1969,6 +1969,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "sage.challenge.framework/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/sage.challenge.framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/sage.challenge.framework.dll": {}
+        }
       }
     }
   },
@@ -6933,6 +6943,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "sage.challenge.framework/1.0.0": {
+      "type": "project",
+      "path": "../../sage.challenge.data.framework/sage.challenge.framework.csproj",
+      "msbuildProject": "../../sage.challenge.data.framework/sage.challenge.framework.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6942,7 +6957,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 3.1.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.0",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.0.0"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.0.0",
+      "sage.challenge.framework >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6951,11 +6967,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.data\\sage.challenge.data.csproj",
+      "projectUniqueName": "D:\\Last Version Correct\\src\\sage.challenge.data\\sage.challenge.data.csproj",
       "projectName": "sage.challenge.data",
-      "projectPath": "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.data\\sage.challenge.data.csproj",
+      "projectPath": "D:\\Last Version Correct\\src\\sage.challenge.data\\sage.challenge.data.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Desktop\\dotnet-coding-challenge-3-master _just database- push this first\\src\\sage.challenge.data\\obj\\",
+      "outputPath": "D:\\Last Version Correct\\src\\sage.challenge.data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6971,7 +6987,11 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Last Version Correct\\sage.challenge.data.framework\\sage.challenge.framework.csproj": {
+              "projectPath": "D:\\Last Version Correct\\sage.challenge.data.framework\\sage.challenge.framework.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
