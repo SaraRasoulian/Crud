@@ -1970,14 +1970,14 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "sage.challenge.framework/1.0.0": {
+      "sage.challenge.model/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "compile": {
-          "bin/placeholder/sage.challenge.framework.dll": {}
+          "bin/placeholder/sage.challenge.model.dll": {}
         },
         "runtime": {
-          "bin/placeholder/sage.challenge.framework.dll": {}
+          "bin/placeholder/sage.challenge.model.dll": {}
         }
       }
     }
@@ -6944,10 +6944,10 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "sage.challenge.framework/1.0.0": {
+    "sage.challenge.model/1.0.0": {
       "type": "project",
-      "path": "../../sage.challenge.data.framework/sage.challenge.framework.csproj",
-      "msbuildProject": "../../sage.challenge.data.framework/sage.challenge.framework.csproj"
+      "path": "../sage.challenge.viewmodel/sage.challenge.model.csproj",
+      "msbuildProject": "../sage.challenge.viewmodel/sage.challenge.model.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6958,7 +6958,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.0",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.0.0",
-      "sage.challenge.framework >= 1.0.0"
+      "sage.challenge.model >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6967,11 +6967,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Last Version Correct\\src\\sage.challenge.data\\sage.challenge.data.csproj",
+      "projectUniqueName": "D:\\APICrud\\src\\sage.challenge.data\\sage.challenge.data.csproj",
       "projectName": "sage.challenge.data",
-      "projectPath": "D:\\Last Version Correct\\src\\sage.challenge.data\\sage.challenge.data.csproj",
+      "projectPath": "D:\\APICrud\\src\\sage.challenge.data\\sage.challenge.data.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\Last Version Correct\\src\\sage.challenge.data\\obj\\",
+      "outputPath": "D:\\APICrud\\src\\sage.challenge.data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6988,8 +6988,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "D:\\Last Version Correct\\sage.challenge.data.framework\\sage.challenge.framework.csproj": {
-              "projectPath": "D:\\Last Version Correct\\sage.challenge.data.framework\\sage.challenge.framework.csproj"
+            "D:\\APICrud\\src\\sage.challenge.viewmodel\\sage.challenge.model.csproj": {
+              "projectPath": "D:\\APICrud\\src\\sage.challenge.viewmodel\\sage.challenge.model.csproj"
             }
           }
         }

@@ -27,7 +27,7 @@ namespace sage.challenge.api.Controllers
             {
                 return Ok(await userRepository.GetUsers());
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, MessagesResource.Status500);
             }
@@ -42,7 +42,7 @@ namespace sage.challenge.api.Controllers
 
                 if (result == null) return NotFound();
 
-                return result;
+                return Ok(result);
             }
             catch (Exception)
             {
@@ -55,25 +55,27 @@ namespace sage.challenge.api.Controllers
         {
             try
             {
-                if (user == null)
-                {
+                if (user == null || !ModelState.IsValid)
                     return BadRequest();
-                }
 
                 #region Check email is not duplicated
-                var result = userRepository.GetUserByEmail(user.Email);
-
-                if (result.Result != null)
+                if (!userRepository.IsEmailUnique(user.Email).Result)
                 {
                     ModelState.AddModelError("Email", MessagesResource.DuplicateEmail);
                     return BadRequest(ModelState);
                 }
                 #endregion
 
+                // check minimum legal age for registration
+                Helper helper = new Helper();
+                if (!helper.IsAgeLegal(user.DateOfBirth))
+                    return BadRequest(MessagesResource.NotValidAge);
+
                 var createdUser = await userRepository.AddUser(user);
 
-                return CreatedAtAction(nameof(GetUser), new { id = createdUser.Id },
-                    createdUser);
+                return StatusCode(StatusCodes.Status201Created, CreatedAtAction(nameof(GetUser), new { id = createdUser.Id },
+                    createdUser));
+
             }
             catch (Exception)
             {
@@ -86,30 +88,37 @@ namespace sage.challenge.api.Controllers
         {
             try
             {
+                if (user == null || !ModelState.IsValid)
+                    return BadRequest();
+
                 if (id != user.Id)
                     return BadRequest(MessagesResource.UserIdMismatch);
 
                 var userToUpdate = await userRepository.GetUserById(id);
 
-                #region Check email is not duplicated
-                var result = userRepository.GetUserByEmail(user.Email);
+                if (userToUpdate == null)
+                    return NotFound(MessagesResource.UserNotFound);
 
-                //if the email address existed and it wasn't for the current user
-                if (result.Result != null && result.Result.Id!= id)
+                #region Check email is not duplicate
+
+                //if the email address was duplicated and it wasn't for the current user
+                if (!userRepository.IsEmailUnique(user.Email, id).Result)
                 {
                     ModelState.AddModelError("Email", MessagesResource.DuplicateEmail);
                     return BadRequest(ModelState);
                 }
                 #endregion
 
-                if (userToUpdate == null)
-                    return NotFound(MessagesResource.UserNotFound);
+                // check minimum legal age for registration
+                Helper helper = new Helper();
+                if (!helper.IsAgeLegal(user.DateOfBirth))
+                    return BadRequest(MessagesResource.NotValidAge);
 
-                return await userRepository.UpdateUser(user);
+                return Ok(await userRepository.UpdateUser(user));
             }
             catch (Exception)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError,MessagesResource.Status500);
+                return StatusCode(StatusCodes.Status500InternalServerError, MessagesResource.Status500);
             }
         }
 
@@ -124,8 +133,7 @@ namespace sage.challenge.api.Controllers
                 {
                     return NotFound(MessagesResource.UserNotFound);
                 }
-
-                return await userRepository.DeleteUser(id);
+                return Ok(await userRepository.DeleteUser(id));
             }
             catch (Exception)
             {

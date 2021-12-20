@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\sage.challenge.api",
+    "\\src\\sage.challenge.api\\Controllers"
+  ],
+  "SelectedNode": "\\src\\sage.challenge.api\\Controllers\\UserController.cs",
+  "PreviewInSolutionExplorer": false
+}

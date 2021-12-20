@@ -21,3 +21,16 @@ D:\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandar
 D:\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.csproj.CopyComplete
 D:\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.dll
 D:\dotnet-coding-challenge-3-master\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.pdb
+D:\APICrud\src\sage.challenge.data\bin\Debug\netstandard2.1\sage.challenge.data.deps.json
+D:\APICrud\src\sage.challenge.data\bin\Debug\netstandard2.1\sage.challenge.data.dll
+D:\APICrud\src\sage.challenge.data\bin\Debug\netstandard2.1\sage.challenge.data.pdb
+D:\APICrud\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.csproj.AssemblyReference.cache
+D:\APICrud\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.GeneratedMSBuildEditorConfig.editorconfig
+D:\APICrud\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.AssemblyInfoInputs.cache
+D:\APICrud\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.AssemblyInfo.cs
+D:\APICrud\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.csproj.CoreCompileInputs.cache
+D:\APICrud\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.dll
+D:\APICrud\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.pdb
+D:\APICrud\src\sage.challenge.data\bin\Debug\netstandard2.1\sage.challenge.model.dll
+D:\APICrud\src\sage.challenge.data\bin\Debug\netstandard2.1\sage.challenge.model.pdb
+D:\APICrud\src\sage.challenge.data\obj\Debug\netstandard2.1\sage.challenge.data.csproj.CopyComplete

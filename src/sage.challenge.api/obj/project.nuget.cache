@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HQ2EnYmDuBqNVVqvj4NVngsaFna6fa0X0u5F82LEDvWfKdavstUQf23cU1OLyd6fV6yPueOacDcDVWAyNoUDRA==",
+  "dgSpecHash": "4yoS+IS7dqiQK+lfZ7FXjCLAHr4QPCtrxmuOjgdzVrC8xC5YC0ciLwHxlajwLomBv3MG2KS+JVM2HbnL7uWcUw==",
   "success": true,
-  "projectFilePath": "D:\\Last Version Correct\\src\\sage.challenge.api\\sage.challenge.api.csproj",
+  "projectFilePath": "D:\\APICrud\\src\\sage.challenge.api\\sage.challenge.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

@@ -28,14 +28,29 @@
     },
     "a78ce694-46a9-4aad-9a4d-68adcc310c65": {
       "ProjectGuid": "a78ce694-46a9-4aad-9a4d-68adcc310c65",
-      "DisplayName": "sage.challenge.repository",
+      "DisplayName": "sage.challenge.repository_b",
       "ColorIndex": 4
     },
     "8a93e15b-bf19-4407-a108-992325cb505e": {
       "ProjectGuid": "8a93e15b-bf19-4407-a108-992325cb505e",
-      "DisplayName": "sage.challenge.framework",
+      "DisplayName": "sage.challenge.framework_a",
       "ColorIndex": 5
+    },
+    "73347974-3c0e-4eff-96e5-eeac99cbb8ba": {
+      "ProjectGuid": "73347974-3c0e-4eff-96e5-eeac99cbb8ba",
+      "DisplayName": "sage.challenge.model",
+      "ColorIndex": 6
+    },
+    "7b971312-8f41-4805-8798-12360549a753": {
+      "ProjectGuid": "7b971312-8f41-4805-8798-12360549a753",
+      "DisplayName": "sage.challenge.framework",
+      "ColorIndex": 7
+    },
+    "9fb2553d-b04b-4c1b-b73c-763d0972609d": {
+      "ProjectGuid": "9fb2553d-b04b-4c1b-b73c-763d0972609d",
+      "DisplayName": "sage.challenge.repository",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 9
 }

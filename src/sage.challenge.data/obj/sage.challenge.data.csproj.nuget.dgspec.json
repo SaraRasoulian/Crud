@@ -1,71 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Last Version Correct\\src\\sage.challenge.data\\sage.challenge.data.csproj": {}
+    "D:\\APICrud\\src\\sage.challenge.data\\sage.challenge.data.csproj": {}
   },
   "projects": {
-    "D:\\Last Version Correct\\sage.challenge.data.framework\\sage.challenge.framework.csproj": {
+    "D:\\APICrud\\src\\sage.challenge.data\\sage.challenge.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Last Version Correct\\sage.challenge.data.framework\\sage.challenge.framework.csproj",
-        "projectName": "sage.challenge.framework",
-        "projectPath": "D:\\Last Version Correct\\sage.challenge.data.framework\\sage.challenge.framework.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\Last Version Correct\\sage.challenge.data.framework\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netstandard2.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "NETStandard.Library": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Last Version Correct\\src\\sage.challenge.data\\sage.challenge.data.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Last Version Correct\\src\\sage.challenge.data\\sage.challenge.data.csproj",
+        "projectUniqueName": "D:\\APICrud\\src\\sage.challenge.data\\sage.challenge.data.csproj",
         "projectName": "sage.challenge.data",
-        "projectPath": "D:\\Last Version Correct\\src\\sage.challenge.data\\sage.challenge.data.csproj",
+        "projectPath": "D:\\APICrud\\src\\sage.challenge.data\\sage.challenge.data.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\Last Version Correct\\src\\sage.challenge.data\\obj\\",
+        "outputPath": "D:\\APICrud\\src\\sage.challenge.data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +28,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "D:\\Last Version Correct\\sage.challenge.data.framework\\sage.challenge.framework.csproj": {
-                "projectPath": "D:\\Last Version Correct\\sage.challenge.data.framework\\sage.challenge.framework.csproj"
+              "D:\\APICrud\\src\\sage.challenge.viewmodel\\sage.challenge.model.csproj": {
+                "projectPath": "D:\\APICrud\\src\\sage.challenge.viewmodel\\sage.challenge.model.csproj"
               }
             }
           }
@@ -127,6 +73,60 @@
               "version": "[3.0.0, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\APICrud\\src\\sage.challenge.viewmodel\\sage.challenge.model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\APICrud\\src\\sage.challenge.viewmodel\\sage.challenge.model.csproj",
+        "projectName": "sage.challenge.model",
+        "projectPath": "D:\\APICrud\\src\\sage.challenge.viewmodel\\sage.challenge.model.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "D:\\APICrud\\src\\sage.challenge.viewmodel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "imports": [
             "net461",
             "net462",

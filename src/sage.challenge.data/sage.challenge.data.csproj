@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\sage.challenge.data.framework\sage.challenge.framework.csproj" />
+    <ProjectReference Include="..\sage.challenge.viewmodel\sage.challenge.model.csproj" />
   </ItemGroup>
 
 </Project>

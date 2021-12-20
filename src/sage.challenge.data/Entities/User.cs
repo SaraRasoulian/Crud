@@ -32,12 +32,16 @@ namespace sage.challenge.data.Entities
         /// Email of the user
         /// </summary>
         [Required(ErrorMessage = "Email is required")]
+        [EmailAddress(ErrorMessage = "Email is not valid")]
+        [StringLength(320, ErrorMessage = "Email can't be longer than 320 characters")]
         public string Email { get; set; }
 
         /// <summary>
         /// User's D.O.B.
         /// </summary>
         [Required(ErrorMessage = "Date of birth is required")]
+        // Validate the date format "YYYY-MM-DD"
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
         public DateTime DateOfBirth { get; set; }
     }
 }

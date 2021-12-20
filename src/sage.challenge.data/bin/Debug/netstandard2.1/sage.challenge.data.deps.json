@@ -15,7 +15,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.0",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.0.0",
-          "sage.challenge.framework": "1.0.0"
+          "sage.challenge.model": "1.0.0"
         },
         "runtime": {
           "sage.challenge.data.dll": {}
@@ -1455,9 +1455,9 @@
           }
         }
       },
-      "sage.challenge.framework/1.0.0": {
+      "sage.challenge.model/1.0.0": {
         "runtime": {
-          "sage.challenge.framework.dll": {}
+          "sage.challenge.model.dll": {}
         }
       }
     }
@@ -2350,7 +2350,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "sage.challenge.framework/1.0.0": {
+    "sage.challenge.model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

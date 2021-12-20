@@ -1,0 +1,12 @@
+D:\APICrud\src\sage.challenge.framework\bin\Debug\netstandard2.1\sage.challenge.framework.deps.json
+D:\APICrud\src\sage.challenge.framework\bin\Debug\netstandard2.1\sage.challenge.framework.dll
+D:\APICrud\src\sage.challenge.framework\bin\Debug\netstandard2.1\sage.challenge.framework.pdb
+D:\APICrud\src\sage.challenge.framework\obj\Debug\netstandard2.1\sage.challenge.framework.csproj.AssemblyReference.cache
+D:\APICrud\src\sage.challenge.framework\obj\Debug\netstandard2.1\sage.challenge.framework.MessagesResource.resources
+D:\APICrud\src\sage.challenge.framework\obj\Debug\netstandard2.1\sage.challenge.framework.csproj.GenerateResource.cache
+D:\APICrud\src\sage.challenge.framework\obj\Debug\netstandard2.1\sage.challenge.framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\APICrud\src\sage.challenge.framework\obj\Debug\netstandard2.1\sage.challenge.framework.AssemblyInfoInputs.cache
+D:\APICrud\src\sage.challenge.framework\obj\Debug\netstandard2.1\sage.challenge.framework.AssemblyInfo.cs
+D:\APICrud\src\sage.challenge.framework\obj\Debug\netstandard2.1\sage.challenge.framework.csproj.CoreCompileInputs.cache
+D:\APICrud\src\sage.challenge.framework\obj\Debug\netstandard2.1\sage.challenge.framework.dll
+D:\APICrud\src\sage.challenge.framework\obj\Debug\netstandard2.1\sage.challenge.framework.pdb

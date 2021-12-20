@@ -1,0 +1,17 @@
+D:\APICrud\src\sage.challenge.repository\bin\Debug\netstandard2.1\sage.challenge.repository.deps.json
+D:\APICrud\src\sage.challenge.repository\bin\Debug\netstandard2.1\sage.challenge.repository.dll
+D:\APICrud\src\sage.challenge.repository\bin\Debug\netstandard2.1\sage.challenge.repository.pdb
+D:\APICrud\src\sage.challenge.repository\bin\Debug\netstandard2.1\sage.challenge.data.dll
+D:\APICrud\src\sage.challenge.repository\bin\Debug\netstandard2.1\sage.challenge.data.pdb
+D:\APICrud\src\sage.challenge.repository\obj\Debug\netstandard2.1\sage.challenge.repository.csproj.AssemblyReference.cache
+D:\APICrud\src\sage.challenge.repository\obj\Debug\netstandard2.1\sage.challenge.repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\APICrud\src\sage.challenge.repository\obj\Debug\netstandard2.1\sage.challenge.repository.AssemblyInfoInputs.cache
+D:\APICrud\src\sage.challenge.repository\obj\Debug\netstandard2.1\sage.challenge.repository.AssemblyInfo.cs
+D:\APICrud\src\sage.challenge.repository\obj\Debug\netstandard2.1\sage.challenge.repository.csproj.CoreCompileInputs.cache
+D:\APICrud\src\sage.challenge.repository\obj\Debug\netstandard2.1\sage.challenge.repository.csproj.CopyComplete
+D:\APICrud\src\sage.challenge.repository\obj\Debug\netstandard2.1\sage.challenge.repository.dll
+D:\APICrud\src\sage.challenge.repository\obj\Debug\netstandard2.1\sage.challenge.repository.pdb
+D:\APICrud\src\sage.challenge.repository\bin\Debug\netstandard2.1\sage.challenge.framework.dll
+D:\APICrud\src\sage.challenge.repository\bin\Debug\netstandard2.1\sage.challenge.model.dll
+D:\APICrud\src\sage.challenge.repository\bin\Debug\netstandard2.1\sage.challenge.framework.pdb
+D:\APICrud\src\sage.challenge.repository\bin\Debug\netstandard2.1\sage.challenge.model.pdb

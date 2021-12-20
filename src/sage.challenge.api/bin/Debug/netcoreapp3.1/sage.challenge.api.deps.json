@@ -40,6 +40,7 @@
           "Swashbuckle.AspNetCore": "5.6.3",
           "sage.challenge.data": "1.0.0",
           "sage.challenge.framework": "1.0.0",
+          "sage.challenge.model": "1.0.0",
           "sage.challenge.repository": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -2087,7 +2088,7 @@
           "Microsoft.EntityFrameworkCore.Abstractions": "3.1.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.0.0",
-          "sage.challenge.framework": "1.0.0"
+          "sage.challenge.model": "1.0.0"
         },
         "runtime": {
           "sage.challenge.data.dll": {}
@@ -2104,9 +2105,19 @@
           "sage.challenge.framework.dll": {}
         }
       },
+      "sage.challenge.model/1.0.0": {
+        "runtime": {
+          "sage.challenge.model.dll": {}
+        },
+        "compile": {
+          "sage.challenge.model.dll": {}
+        }
+      },
       "sage.challenge.repository/1.0.0": {
         "dependencies": {
-          "sage.challenge.data": "1.0.0"
+          "sage.challenge.data": "1.0.0",
+          "sage.challenge.framework": "1.0.0",
+          "sage.challenge.model": "1.0.0"
         },
         "runtime": {
           "sage.challenge.repository.dll": {}
@@ -4934,6 +4945,11 @@
       "sha512": ""
     },
     "sage.challenge.framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "sage.challenge.model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

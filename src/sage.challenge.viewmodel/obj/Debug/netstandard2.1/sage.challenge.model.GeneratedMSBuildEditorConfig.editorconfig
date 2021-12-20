@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = sage.challenge.model
+build_property.ProjectDir = D:\APICrud\src\sage.challenge.viewmodel\

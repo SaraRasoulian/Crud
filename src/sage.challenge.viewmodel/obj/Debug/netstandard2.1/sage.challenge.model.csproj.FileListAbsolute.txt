@@ -1,0 +1,10 @@
+D:\APICrud\src\sage.challenge.viewmodel\bin\Debug\netstandard2.1\sage.challenge.model.deps.json
+D:\APICrud\src\sage.challenge.viewmodel\bin\Debug\netstandard2.1\sage.challenge.model.dll
+D:\APICrud\src\sage.challenge.viewmodel\bin\Debug\netstandard2.1\sage.challenge.model.pdb
+D:\APICrud\src\sage.challenge.viewmodel\obj\Debug\netstandard2.1\sage.challenge.model.csproj.AssemblyReference.cache
+D:\APICrud\src\sage.challenge.viewmodel\obj\Debug\netstandard2.1\sage.challenge.model.GeneratedMSBuildEditorConfig.editorconfig
+D:\APICrud\src\sage.challenge.viewmodel\obj\Debug\netstandard2.1\sage.challenge.model.AssemblyInfoInputs.cache
+D:\APICrud\src\sage.challenge.viewmodel\obj\Debug\netstandard2.1\sage.challenge.model.AssemblyInfo.cs
+D:\APICrud\src\sage.challenge.viewmodel\obj\Debug\netstandard2.1\sage.challenge.model.csproj.CoreCompileInputs.cache
+D:\APICrud\src\sage.challenge.viewmodel\obj\Debug\netstandard2.1\sage.challenge.model.dll
+D:\APICrud\src\sage.challenge.viewmodel\obj\Debug\netstandard2.1\sage.challenge.model.pdb
