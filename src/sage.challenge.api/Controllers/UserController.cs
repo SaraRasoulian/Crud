@@ -58,13 +58,12 @@ namespace sage.challenge.api.Controllers
                 if (user == null || !ModelState.IsValid)
                     return BadRequest();
 
-                #region Check email is not duplicated
+                //Check email is not duplicated
                 if (!userRepository.IsEmailUnique(user.Email).Result)
                 {
                     ModelState.AddModelError("Email", MessagesResource.DuplicateEmail);
                     return BadRequest(ModelState);
                 }
-                #endregion
 
                 // check minimum legal age for registration
                 Helper helper = new Helper();
@@ -99,15 +98,13 @@ namespace sage.challenge.api.Controllers
                 if (userToUpdate == null)
                     return NotFound(MessagesResource.UserNotFound);
 
-                #region Check email is not duplicate
-
+                //Check email is not duplicate
                 //if the email address was duplicated and it wasn't for the current user
                 if (!userRepository.IsEmailUnique(user.Email, id).Result)
                 {
                     ModelState.AddModelError("Email", MessagesResource.DuplicateEmail);
                     return BadRequest(ModelState);
                 }
-                #endregion
 
                 // check minimum legal age for registration
                 Helper helper = new Helper();
