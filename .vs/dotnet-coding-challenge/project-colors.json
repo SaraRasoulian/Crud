@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8f2b0aa9-a88b-4e9a-b68b-cabe491a181c": {
+      "ProjectGuid": "8f2b0aa9-a88b-4e9a-b68b-cabe491a181c",
+      "DisplayName": "sage.challenge.api",
+      "ColorIndex": 0
+    },
+    "71866096-4b4e-4120-9b39-6445fa43d298": {
+      "ProjectGuid": "71866096-4b4e-4120-9b39-6445fa43d298",
+      "DisplayName": "sage.challenge.data",
+      "ColorIndex": 1
+    },
+    "1d5867f4-8788-4468-817e-6847393f420b": {
+      "ProjectGuid": "1d5867f4-8788-4468-817e-6847393f420b",
+      "DisplayName": "sage.challenge.domain",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
